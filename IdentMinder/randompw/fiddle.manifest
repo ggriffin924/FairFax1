@@ -1,0 +1,11 @@
+name: FairFax Random Password Gen
+description: Used to generate passwords for IdentityMinder
+authors:
+  - Goodman Griffin
+resources:
+  - http://some.url.com/some/file.js
+  - http://other.url.com/other_filename.css
+normalize_css: no
+wrap: l
+panel_js: 0
+panel_css: 0
