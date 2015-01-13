@@ -15,7 +15,7 @@ String protectedUrl="/myfairfax/logoutconfirm.aspx";
 Localizer localizer = Localizer.getInstance("com.netegrity.webapp.selfreg.messages");
 %>
 <BR>
-Message to be editied for correction by OTA group for verbage.
+Message to be editied for correction by OPA group for verbage.
 <BR>
 <BR>
 <table class="fw-messages" width="100%">
