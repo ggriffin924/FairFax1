@@ -325,6 +325,10 @@ em {
 	color: white;
 }
 
+#startcontent {
+	color: white;
+}
+
 .im-page-section-header h2 {
 	background: none;
 	background-image: none;
@@ -767,7 +771,7 @@ if (!"Tasks".equals(cat2name) && !tasksCategory.equalsIgnoreCase(cat2name) && !t
 
 <skin:ifprotected>
 <table cellpadding="0" cellspacing="0" style="width: 100%;"><tr><td>
-	<div class="im-page-section-header"><h1><a name="startcontent" id="startcontent"><skin:tasktitle /></a></h1></div>
+	<div class="im-page-section-header"><h1><span name="startcontent" id="startcontent"><skin:tasktitle /></span></h1></div>
 	<table cellpadding="0" cellspacing="10" style="width: 100%;"><tr><td>
 	<skin:taskbody />
 	</td></tr></table>
