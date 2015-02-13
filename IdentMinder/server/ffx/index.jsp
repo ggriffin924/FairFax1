@@ -502,11 +502,15 @@ input[type='checkbox']:active {
 			<skin:img src="head_icon.gif" alt="User" title="User" width="10" height="11" /> <span class="headerTxt"><%= loginName %></span>
 			  <span class="headerPipe">|</span>
 			  <!--  <skin:logout styleClass="logout" onclick="return logout();"><skin:message key="console.logout" /></skin:logout> -->
+			  <!--
 			  <a id="ctl00_hypProfile" class="linkover" href="/iam/im/ctz/ffx/index.jsp?task.tag=ChangeMyPassword">Change Password</a>	
 			  <span class="headerPipe">|</span>
+			  -->
 			</span> 
+			  <!--
 				 <a id="ctl00_hypProfile" class="linkover" href="/iam/im/ctz/ffx/index.jsp?task.tag=ModifyMyProfile">Profile</a>				    
 				 &nbsp;|&nbsp; 
+			  -->
 				 <a id="ctl00_hypMyFairfaxMenu" class="linkover" href="/myfairfax/">MyFairfax Menu</a>
 			</skin:ifprotected>
 			</h4>    
