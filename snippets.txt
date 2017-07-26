@@ -1,0 +1,24 @@
+List alist = Arrays.asList("apple", "guava", "orange",
+                                   "mango", "grapes");
+System.out.println("List: " + alist);
+alist.sort(null);
+System.out.println("Sorted list: " + alist);
+// prints
+       List: [apple, guava, orange, mango, grapes]
+Sorted list: [apple, grapes, guava, mango, orange]
+
+** Ignore case **
+List alist = Arrays.asList("apple", "Guava", "Orange",
+                                   "mango", "grapes");
+System.out.println(" List: " + alist);
+alist.sort(null);
+System.out.println(" Sorted list: " + alist);
+alist.sort((x, y) -> {
+        return x.compareToIgnoreCase(y);
+    });
+System.out.println("Ignoring case: " + alist);
+// prints
+         List: [apple, Guava, Orange, mango, grapes]
+  Sorted list: [Guava, Orange, apple, grapes, mango]
+Ignoring case: [apple, grapes, Guava, mango, Orange]
+
